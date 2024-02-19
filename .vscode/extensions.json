@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "github.copilot-chat",
+        "googlecloudtools.cloudcode",
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "ms-dotnettools.vscode-dotnet-pack",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "oleg-shilo.cs-script",
+        "ms-vscode-remote.remote-wsl",
+        "github.vscode-github-actions"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "editor.defaultFoldingRangeProvider": "GitHub.copilot",
+    "editor.defaultFormatter": "GitHub.copilot",
+    "terminal.integrated.automationProfile.windows": {
+        "source": "PowerShell",
+        "args": ["-NoProfile", "-NoExit", "-Command", "Invoke-Expression $(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/azcli-debian.sh')"]
+    },
+}
