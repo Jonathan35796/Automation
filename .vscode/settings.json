@@ -1,12 +1,24 @@
 {
     "editor.defaultFoldingRangeProvider": "GitHub.copilot",
     "editor.defaultFormatter": "GitHub.copilot",
-    "terminal.integrated.automationProfile.windows": {
-        "path": "C:\\Windows\\System32\\cmd.exe"
-    }
-        // Removed the problematic lines
-    "java.compile.nullAnalysis.mode": "automatic",
     "editor.inlineSuggest.showToolbar": "always",
     "microprofile.tools.inlayHint.enabled": true,
     "debug.showSubSessionsInToolBar": true,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.options.advanced": {
+        
+        "build": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        }
+    }
 }
